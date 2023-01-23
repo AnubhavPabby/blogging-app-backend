@@ -1,0 +1,27 @@
+# server configuration
+server:
+  port: 9090
+  error:
+    include-message: always
+
+# database configuration
+spring:
+  datasource:
+    url: ${DATABASE_URL}
+    username: ${DATABASE_HOST}
+    password: ${DATABASE_PASSWORD}
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+        format_sql: true
+    show-sql: true
+
+
+
+
+
+
