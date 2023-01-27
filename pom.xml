@@ -12,7 +12,7 @@
 	<artifactId>blog-app-apis</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>blog-app-apis</name>
-	<description>Its a blogging application where users can writ posts and comment on others post</description>
+	<description>Its a blogging application where users can write posts and comment on others post</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -85,7 +85,7 @@
 				<configuration>
 					<excludes>
 						<exclude>
-							<groupId>org.projectlombok</groupId>
+							<groupId>org.project-lombok</groupId>
 							<artifactId>lombok</artifactId>
 						</exclude>
 					</excludes>
